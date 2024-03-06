@@ -1,0 +1,1268 @@
+body
+{
+    background-color: rgb(197, 197, 197);
+}
+
+.iDev-Logo
+{
+    width: 40%;
+    margin-top: 0.1rem;
+    margin-left: 0.7rem;
+    cursor: pointer;    
+}
+
+.header
+{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: gray;
+    margin-bottom: 0.5%;
+    margin: 0;
+    height: 7vh;
+}
+
+header
+{
+    margin: 0;
+}
+
+.search-box
+{
+    position: absolute;
+    left: 20%;
+    background: white;
+    padding: 0.5%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 3vh;
+}
+
+.loupe-blue
+{
+    margin-top: 5%;
+    margin-left: 80%;
+    margin-bottom: 5%;
+    width: 15px;
+    cursor: pointer;
+}
+
+.search-text
+{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.search-btn
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-btn > a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+}
+
+.login-btn
+{
+    margin: 0.5rem;
+    width: 4vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: rgb(27, 213, 27);
+    text-decoration: none;
+}
+
+.login-btn:hover
+{
+    background-color: rgb(115, 255, 115);
+}
+
+.photos, .description, footer
+{
+    margin: 2rem;
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+
+.container
+{
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin-left: 7rem;
+}
+
+.gallery-wrapper
+{
+    overflow-x: auto;
+    width: 77vw
+}
+
+.gallery
+{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    height: 30vh;
+    width: 100vw;
+}
+
+.gallery > img
+{
+    border-radius: 10px;
+}
+
+.arrow-left, .arrow-right
+{
+    position: absolute;
+    top: 0;
+    right: auto;
+    left: auto;
+    bottom: 0;
+    font-size: 30px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: rgb(98, 98, 98);
+    cursor: pointer;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.arrow-left
+{
+    right: 43rem;
+}
+.arrow-right
+{
+    left: 95.5rem;
+    right: 0;
+    background-color: whitesmoke;
+}
+
+.item
+{
+    opacity: 0.6;
+}
+
+.current-item
+{
+    opacity: 1;
+}
+
+/* This is from w3schools */
+/* 
+https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.gallery-wrapper::-webkit-scrollbar 
+{
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.gallery-wrapper 
+{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+
+.title
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.information
+{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title > h1
+{
+    margin-bottom: -1rem;
+    font-family: 'Contrail One', cursive;
+    color: red;
+}
+
+.p
+{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    margin-bottom: -1rem;
+}
+
+.h
+{
+    font-family: 'Roboto Slab', serif;
+}
+
+.h-main
+{
+    display: flex;
+}
+
+.part-1
+{
+    width: 70%;
+    margin-left: 1.5rem;
+}
+
+.main-part
+{
+    display: flex;
+}
+
+.part-2
+{
+    width: 50%;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 41rem;
+}
+
+.buscar, .whats
+{
+    font-family: 'Ubuntu', sans-serif;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.buscar
+{
+    background-color: red;
+    width: 8rem;
+}
+
+.whats
+{
+    width: 8rem;
+    background-color: rgb(25, 197, 25);
+}
+
+.buscar:hover
+{
+    background-color: rgb(255, 109, 109);
+}
+
+.whats:hover
+{
+    background-color: rgb(116, 255, 116);
+}
+
+.sale-foot
+{
+    font-family: 'Caveat', cursive;
+}
+
+
+
+
+
+
+
+@media (max-width: 2000px)
+{
+    .arrow-right
+    {
+        left: 107rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 83vw;
+    }
+
+    .btn-foot
+    {
+        display: flex;
+    }
+
+    .part-1
+    {
+        width: 50vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        margin-left: 80rem;
+    }
+}
+
+@media (max-width: 1950px)
+{
+    .search-box
+    {
+        position: absolute;
+        left: 20%;
+        background: white;
+        padding: 0.5%;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60vw;
+        height: 2vh;
+    }
+
+    .login-btn
+    {
+        width: 10vw;
+    }
+
+    .arrow-right
+    {
+        left: 101rem;
+    }
+
+    .part-2
+    {
+        margin-left: 60vw;
+    }
+}
+
+@media (max-width: 1850px)
+{
+    .search-box
+    {
+        position: absolute;
+        left: 20%;
+        background: white;
+        padding: 0.5%;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60vw;
+        height: 3vh;
+    }
+
+    .login-btn
+    {
+        width: 10vw;
+    }
+
+    .gallery-wrapper
+    {
+        width: 75vw;
+    }
+
+    .arrow-right
+    {
+        left: 86rem;
+    }
+
+    .part-2
+    {
+        width: 60%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 70rem;
+    }
+
+    .part-2
+    {
+        margin-left: 65rem;
+    }
+}
+@media (max-width: 1800px)
+{
+    .login-btn
+    {
+        width: 10vw;
+    }
+
+    .gallery-wrapper
+    {
+        width: 75vw;
+    }
+
+    .arrow-right
+    {
+        left: 90rem;
+    }
+
+    .arrow-left
+    {
+        left: 0.rem;
+    }
+
+    .part-2
+    {
+        width: 60%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 70rem;
+    }
+
+    .part-2
+    {
+        margin-left: 65rem;
+    }
+}
+
+
+@media (max-width: 1700px)
+{
+
+    .gallery-wrapper
+    {
+        width: 80vw;
+    }
+
+    .arrow-right
+    {
+        left: 85.5rem;
+        right: 0;
+    }
+
+    .part-2
+    {
+        width: 60%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 57rem;
+    }
+
+    .login-btn
+    {
+        width: 10vw;
+    }
+
+    .btn-foot
+    {
+        margin-left: 0;
+    }
+
+    .part-2
+    {
+        margin-left: 60rem;
+    }
+}
+
+@media (max-width: 1600px)
+{
+
+    .gallery-wrapper
+    {
+        width: 77vw;
+    }
+
+    .arrow-right
+    {
+        left: 80rem;
+        right: 0;
+    }
+
+    .part-2
+    {
+        width: 70%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 55rem;
+    }
+
+    .login-btn
+    {
+        width: 10vw;
+    }
+}
+
+@media (max-width: 1500px)
+{
+    .gallery-wrapper
+    {
+        width: 77vw;
+    }
+
+    .arrow-right
+    {
+        left: 73rem;
+        right: 0;
+    }
+
+    .part-2
+    {
+        width: 30%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 30rem;
+        
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 1400px)
+{
+    .gallery-wrapper
+    {
+        width: 73vw;
+    }
+
+    .login-btn
+    {
+        width: 10vw;
+    }
+
+    .arrow-right
+    {
+        left: 65rem;
+        right: 0;
+    }
+
+    .part-2
+    {
+        width: 30%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 30rem;
+        
+    }
+    .btn-foot
+    {
+        display: flex;
+    }
+
+    .part-1
+    {
+        width: 50vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 1300px)
+{
+    .arrow-right
+    {
+        left: 60rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .arrow-right
+    {
+        left: 55rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1100px)
+{
+    .arrow-right
+    {
+        left: 43.5rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 60vw;
+        margin-left: 1rem;
+    }
+
+    .part-1
+    {
+        width: 50vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        width: 30%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 6rem;
+        
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .iDev-Logo
+    {
+        width: 11rem;
+    }
+    .arrow-right
+    {
+        left: 40rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 60vw;
+        margin-left: 1rem;
+    }
+
+    .part-1
+    {
+        width: 50vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        width: 30%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 7%;
+        
+    }
+
+    .h, .p
+    {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .iDev-Logo
+    {
+        width: 10rem;
+    }
+    .arrow-right
+    {
+        left: 35rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 60vw;
+        margin-left: 1rem;
+    }
+
+    .part-1
+    {
+        width: 50vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        width: 30%;
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 2%;
+        
+    }
+
+    .h, .p
+    {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px)
+{
+    .iDev-Logo
+    {
+        width: 9rem;
+    }
+
+    .arrow-left
+    {
+        left: -4rem;
+        ;
+    }
+    .arrow-right
+    {
+        left: 29rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 50vw;
+        margin-left: 1rem;
+    }
+
+    .part-1
+    {
+        width: 50vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        width: 30%;
+        display: flex;
+        margin-left: 2%;
+        
+    }
+
+    .h, .p
+    {
+        font-size: 13px;
+    }
+
+    .btn-foot
+    {
+        width: 10rem;
+    }
+    .buscar, .whats
+    {
+        width: 7rem;
+        font-size: 10px;
+        height: 2rem;
+    }
+
+    .sale-foot
+    {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .iDev-Logo
+    {
+        width: 7rem;
+    }
+
+    .arrow-left
+    {
+        left: -4rem;
+        ;
+    }
+    .arrow-right
+    {
+        left: 23rem;
+        right: 0;
+    }
+
+    .gallery-wrapper
+    {
+        width: 50vw;
+        margin-left: 1rem;
+    }
+
+    .part-1
+    {
+        width: 40vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        display: flex;
+        
+    }
+
+    .h, .p
+    {
+        font-size: 12px;
+    }
+
+    .part-2
+    {
+        align-items: flex-start;
+    }
+
+    .btn-foot
+    {
+        width: 12rem;
+        margin-left: 3rem;
+    }
+    .buscar, .whats
+    {
+        font-size: 10px;
+        height: 2rem;
+    }
+
+    .sale-foot
+    {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .iDev-Logo
+    {
+        width: 6rem;
+    }
+
+    .login-btn > a
+    {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .arrow-left
+    {
+        left: -4rem;
+    }
+    .arrow-right
+    {
+        left: 23rem;
+        right: 0;
+    }
+
+    .gallery
+    {
+        align-items: center;
+        display: flex;
+        padding-top: 2rem;
+        
+    }
+
+    .gallery > img
+    {
+        width: 100%;
+        height: 100%;
+        margin-right: 1rem;
+        margin-left: 0;
+    }
+
+    .container
+    {
+        margin-right: 7rem;
+    }
+
+    .gallery-wrapper
+    {
+        width: 50vw;
+    }
+
+    .part-1
+    {
+        width: 40vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        display: flex;
+        
+    }
+
+    .h, .p
+    {
+        font-size: 12px;
+    }
+
+    .part-2
+    {
+        align-items: flex-start;
+    }
+
+    .btn-foot
+    {
+        width: 12rem;
+        margin-left: 3rem;
+    }
+    .buscar, .whats
+    {
+        font-size: 10px;
+        height: 2rem;
+    }
+
+    .sale-foot
+    {
+        font-size: 20px;
+    }
+
+    .arrow-left, .arrow-right
+    {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .iDev-Logo
+    {
+        width: 6rem;
+    }
+
+    .login-btn > a
+    {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .arrow-left
+    {
+        left: -4rem;
+    }
+    .arrow-right
+    {
+        left: 15rem;
+        right: 0;
+    }
+
+    .gallery
+    {
+        align-items: center;
+        display: flex;
+        padding-top: 2rem;
+        
+        
+    }
+
+    .gallery > img
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .container
+    {
+        margin-right: 7rem;
+    }
+
+    .gallery-wrapper
+    {
+        width: 50vw;
+        margin-left: -2rem;
+    }
+
+    .part-1
+    {
+        width: 30vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 15rem;
+    }
+
+    .part-2
+    {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .h, .p
+    {
+        font-size: 9px;
+    }
+
+    .h
+    {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .btn-foot
+    {
+        width: 1rem;
+        margin-left: 5rem;
+    }
+    .buscar, .whats
+    {
+        width: 4.5rem;
+        font-size: 8px;
+        height: 1.5rem;
+    }
+
+    .sale-foot
+    {
+        font-size: 15px;
+    }
+
+    .arrow-left, .arrow-right
+    {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .iDev-Logo
+    {
+        width: 7rem;
+    }
+
+    .search-box
+    {
+        position: absolute;
+        left: 30%;
+        background: white;
+        padding: 0.5%;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50vw;
+        height: 3vh;
+    }
+
+
+    .arrow-left
+    {
+        left: -5rem;
+    }
+    .arrow-right
+    {
+        left: 9rem;
+        right: 0;
+    }
+
+    .gallery
+    {
+        align-items: center;
+        display: flex;
+        padding-top: 2rem;
+        
+        
+    }
+
+    .gallery-wrapper
+    {
+        width: 50vw;
+        margin-left: -4rem;
+    }
+
+    .part-1
+    {
+        width: 30vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 8rem;
+    }
+
+    .part-2
+    {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .h, .p
+    {
+        font-size: 8px;
+    }
+
+    .h
+    {
+        margin: 1rem 1.5rem 1rem 0;
+    }
+
+    .btn-foot
+    {
+        margin-top: -0.6rem;
+        width: 10rem;
+        margin-left: 1rem;
+    }
+    .buscar, .whats
+    {
+        font-size: 8px;
+        height: 1.5rem;
+        width: 4rem;
+    }
+
+    .sale-foot
+    {
+        font-size: 13px;
+    }
+
+    .buscar
+    {
+        margin-right: 0rem;
+    }
+
+}
+
+@media (max-width: 400px)
+{
+    .iDev-Logo
+    {
+        width: 7rem;
+    }
+
+    .search-box
+    {
+        position: absolute;
+        left: 30%;
+        background: white;
+        padding: 0.5%;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 47vw;
+        height: 3vh;
+    }
+
+    .login-btn
+    {
+        width: 15vw;
+    }
+
+    .arrow-left
+    {
+        left: -5rem;
+    }
+    .arrow-right
+    {
+        left: 9rem;
+        right: 0;
+    }
+
+    .gallery
+    {
+        align-items: center;
+        display: flex;
+        padding-top: 2rem;
+        
+        
+    }
+
+    .gallery-wrapper
+    {
+        width: 50vw;
+        margin-left: -4rem;
+    }
+
+    .part-1
+    {
+        width: 30vw;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .sale-foot
+    {
+        width: 8rem;
+    }
+
+    .part-2
+    {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .h, .p
+    {
+        font-size: 7px;
+    }
+
+    .h
+    {
+        margin: 1rem 1rem 1rem 0;
+    }
+
+    .btn-foot
+    {
+        margin-top: -0.6rem;
+        width: 9rem;
+        margin-left: 1rem;
+    }
+    .buscar, .whats
+    {
+        width: 3.3rem;
+        font-size: 5px;
+        height: 1.5rem;
+    }
+
+    .sale-foot
+    {
+        font-size: 10px;
+    }
+
+    .buscar
+    {
+        margin-right: 0rem;
+    }
+
+}

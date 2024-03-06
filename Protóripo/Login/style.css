@@ -1,0 +1,222 @@
+body
+{
+    margin: 0;
+}
+
+body *
+{
+    box-sizing: border-box;
+}
+
+.MainLogin
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeftLogin
+{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.logo-image
+{
+    width: 40vw;
+}
+
+.LeftLogin > h2
+{
+    color: rgb(126, 115, 115);
+    border-style: 1px solid;
+    font-size: 2vw;
+}
+
+.LeftLogin > h3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4vw;
+}
+
+.left-image
+{
+    width: 25vw;
+}
+
+.RightLogin
+{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardLogin
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px white;
+    border: 1px solid;
+    border-color: gray;
+}
+
+.CardLogin > h1
+{
+    color: red;
+    font-weight: 800;
+    margin: 0;
+    font-family: 'Alkalami', serif;
+}
+
+.textfield
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;   
+}
+
+.textfield > input
+{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(158, 158, 158);
+    color: white;
+    font-size: 12pt;
+    box-shadow: white;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.textfield > input::placeholder
+{
+    color: aliceblue;
+}
+
+.btn-entrar
+{
+    width: 75%;
+    padding: 16px 0px;
+    margin: 25px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800px;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(248, 77, 77);
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.btn-entrar > a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+}
+
+.btn-cadastro
+{
+    width: 75%;
+    padding: 16px 0px;
+    margin: 0px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800px;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    background-color: green;
+    cursor: pointer;
+    box-shadow:  rgb(135, 250, 141);
+    font-family: 'Dela Gothic One', cursive;
+    
+}
+
+.btn-cadastro > a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+}
+
+.btn-cadastro:hover
+{
+    background-color: rgb(3, 178, 3);
+}
+
+.btn-entrar:hover
+{
+    background-color: rgb(253, 73, 73);
+}
+
+
+@media only screen and (max-width: 950px)
+{
+    .CardLogin
+    {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .MainLogin
+    {
+        flex-direction: column;
+    }
+    .LeftLogin > h2, h3
+    {
+        display: none;
+    }
+    
+
+    .RightLogin
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-image
+    {
+        width: 100vw;
+        position: absolute;
+        left: 10%;  
+    }
+
+    .left-image
+    {
+        display: none;
+    }
+
+    .CardLogin
+    {
+        width: 80%;
+    }
+
+}

@@ -1,0 +1,744 @@
+.iDev-Logo
+{
+    width: 40%;
+    margin-top: 0.1rem;
+    margin-left: 0.7rem;
+    
+}
+
+body
+{
+    background-image: url(/Imagens/Background\ final.png);
+}
+
+.header
+{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: gray;
+    margin-bottom: 0.5%;
+    margin: 0;
+    height: 7vh;
+}
+
+header
+{
+    margin-bottom: 0.5rem;
+}
+
+.search-box
+{
+    position: absolute;
+    left: 20%;
+    background: white;
+    padding: 0.5%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 5vh;
+}
+
+.loupe-blue
+{
+    margin-top: 5%;
+    margin-left: 80%;
+    margin-bottom: 5%;
+    width: 15px;
+    cursor: pointer;
+}
+
+.search-text
+{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.search-btn
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-btn > a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+}
+
+.login-btn
+{
+    margin: 0.5rem;
+    width: 4vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: rgb(27, 213, 27);
+    text-decoration: none;
+}
+
+.login-btn:hover
+{
+    background-color: rgb(115, 255, 115);
+}
+
+.carousel-inner img
+{
+    margin: auto;
+    border-radius: 10px;
+    background: none;
+}
+
+.carousel-indicators
+{
+    background: none;
+}
+
+.title-h
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.subtitle-h3
+{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title-h3
+{
+    margin: 1rem;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+}
+
+.title2
+{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.subtitle2
+{
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-card
+{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0.5rem 5rem 0.5rem 5rem;
+}
+
+.year-km
+{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.card-main
+{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.card
+{
+    width: 20rem;
+}
+
+.more-btn
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.saiba-mais
+{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 10vw;
+    height: 5vh;
+    color: whitesmoke;
+}
+
+.saiba-mais > a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.saiba-mais:hover
+{
+    background-color: rgb(252, 72, 72);
+    box-shadow: 0.5px 0.5px 30px 0.5px rgb(255, 91, 91);
+}
+
+.test-card
+    {
+        display: none;
+    }
+
+.price
+{
+    margin: 0.5rem 0 -0.2rem 0;
+}
+
+footer
+{
+    margin-top: 2rem;
+    padding: 1rem;
+    background: black;
+}
+
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: black;
+}
+
+.insta-face-whats
+{
+    margin-left: 2rem;
+    margin-right: 20rem;
+}
+
+.gmail-maps
+{
+    margin-right: 10rem;
+}
+
+.instagram, .facebook, .whatsapp, .gmail, .maps
+{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+
+.insta-logo, .face-logo, .whats-logo, .gmail-logo, .maps
+{
+    height: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.insta-link, .face-link, .whats-link, .gmail-link, .maps-link
+{
+
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1700px)/*HD Screen*/
+{
+    #fiesta, #lamborghini, #focus, #tracker
+    {
+        display: none;
+    }
+
+    .card
+    {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 1400px)
+{
+
+    .login-btn
+    {
+        width: 6rem;
+        height: 2rem;
+    }
+
+    .card
+    {
+        width: 18rem;
+        margin: 0 -4rem;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .login-btn
+    {
+        width: 7rem;
+        height: 2rem;
+    }
+    
+    .card
+    {
+        width: 15rem;
+        margin: 0 -4rem;
+    }
+}
+
+@media (max-width: 1000px)
+{   
+    .header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .iDev-Logo
+    {
+        width: 18vw;
+        height: 5vh;
+    }
+
+    .search-box
+    {
+        width: 50%;
+        display: flex;
+        margin-left: 2.5rem;
+        height: 1.7rem;
+    }
+
+    #fiesta, #lamborghini, #focus, #tracker, #kicks, #gol, #toro, #porsche
+    {
+        display: none;
+    }
+
+
+    .card
+    {
+        width: 17rem;
+        margin: 1rem -4rem 0 -4rem; 
+    }
+
+    .saiba-mais
+    {
+        width: 20vw;
+        height: 5vh;
+    }
+
+    .login-btn
+    {
+        width: 7rem;
+        height: 1.7rem;
+    }
+
+}
+@media (max-width: 850px)
+{   
+    .header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .iDev-Logo
+    {
+        width: 18vw;
+        height: 5vh;
+    }
+
+    .search-box
+    {
+        width: 50%;
+        display: flex;
+        margin-left: 2.5rem;
+        height: 1.7rem;
+    }
+
+    #lambroghini
+    {
+        display: none;
+    }
+
+
+    .card
+    {
+        width: 15rem;
+        margin: 1rem -4rem 0 -4rem; 
+    }
+
+    .saiba-mais
+    {
+        width: 20vw;
+        height: 5vh;
+    }
+
+    .login-btn
+    {
+        width: 5rem;
+        height: 1.7rem;
+    }
+}
+
+@media (max-width: 850px)
+{   
+    .header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .iDev-Logo
+    {
+        width: 18vw;
+        height: 5vh;
+    }
+
+    .search-box
+    {
+        width: 50%;
+        display: flex;
+        margin-left: 2.5rem;
+        height: 1.7rem;
+    }
+
+    #lambroghini
+    {
+        display: none;
+    }
+
+
+    .card
+    {
+        width: 13.5rem;
+        margin: 1rem -4rem 0 -4rem; 
+    }
+
+    .saiba-mais
+    {
+        width: 20vw;
+        height: 5vh;
+    }
+
+    .login-btn
+    {
+        width: 5rem;
+        height: 1.7rem;
+    }
+}
+
+@media (max-width: 700px) /*Mobile*/
+{
+    .main-card
+    {
+        flex-direction: column;
+    }
+
+    .card
+    {
+        margin: 1rem;
+        width: 20rem;
+    }
+
+    .search-box
+    {
+        width: 10rem;
+        height: 2rem;
+        margin-left: 5rem;
+    }
+
+    .loupe-blue
+    {
+        margin-right: 10px;
+    }
+
+    .saiba-mais
+    {
+        width: 30vw;
+        height: 7vh;
+        font-size: 20px;
+    }
+
+    .carousel-indicators > button
+    {
+        display: none;
+    }
+
+    .login-btn
+    {
+        width: 20vw;
+        height: 2rem;
+    }
+
+    .iDev-Logo
+    {
+        width: 30vw;
+        height: 4vh;
+    }
+
+    .insta-face-whats
+    {
+        margin-right: 10rem;
+    }
+}
+
+@media (max-width: 600px) /*Mobile*/
+{
+    .main-card
+    {
+        flex-direction: column;
+    }
+
+    .card
+    {
+        margin: 1rem;
+        width: 20rem;
+    }
+
+    .search-box
+    {
+        width: 10rem;
+        height: 1.7rem;
+        margin-left: 5rem;
+    }
+
+    .loupe-blue
+    {
+        margin-right: 10px;
+    }
+
+    .saiba-mais
+    {
+        width: 30vw;
+        height: 7vh;
+        font-size: 20px;
+    }
+
+    .carousel-indicators > button
+    {
+        display: none;
+    }
+
+    .login-btn
+    {
+        width: 20vw;
+        height: 2rem;
+    }
+
+    .iDev-Logo
+    {
+        width: 30vw;
+        height: 5vh;
+    }
+
+    .insta-face-whats
+    {
+        margin-right: 6rem;
+    }
+}
+
+@media (max-width: 500px) /*Mobile*/
+{
+    .main-card
+    {
+        flex-direction: column;
+    }
+
+    .card
+    {
+        margin: 1rem;
+    }
+
+    .search-box
+    {
+        margin-left: 2.5rem;
+    }
+
+    .saiba-mais
+    {
+        width: 50vw;
+        height: 7vh;
+        font-size: 20px;
+    }
+
+    .carousel-indicators > button
+    {
+        display: none;
+    }
+
+    .login-btn
+    {
+        width: 20vw;
+    }
+
+    .iDev-Logo
+    {
+        margin: 0;
+        width: 35vw;
+        height: 3.5vh;
+    }
+
+    .insta-face-whats
+    {
+        margin-right: 2rem;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 400px) /*Mobile*/
+{
+    .main-card
+    {
+        flex-direction: column;
+    }
+
+    .card
+    {
+        margin: 1rem;
+        width: 16rem;
+    }
+
+    .search-box
+    {
+        margin-left: 2rem;
+        width: 8rem;
+    }
+
+    .saiba-mais
+    {
+        width: 50vw;
+        height: 7vh;
+        font-size: 20px;
+    }
+
+    .carousel-indicators > button
+    {
+        display: none;
+    }
+
+    .login-btn
+    {
+        width: 20vw;
+    }
+
+    .iDev-Logo
+    {
+        margin: 0;
+        width: 35vw;
+        height: 3.5vh;
+    }
+
+    .insta-face-whats
+    {
+        margin-right: 2rem;
+        margin-left: 0;
+    }
+
+    .gmail-maps
+    {
+        margin-left: 10rem;
+    }
+
+    .footer
+    {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 300px) /*Mobile*/
+{
+    .main-card
+    {
+        flex-direction: column;
+    }
+
+    .card
+    {
+        margin: 1rem;
+        width: 12rem;
+    }
+
+    .search-box
+    {
+        display: flex;
+        width: 8rem;
+        height: 1.8rem;
+        margin: 1.5rem;
+        display: none;
+    }
+
+    .saiba-mais
+    {
+        width: 50vw;
+        height: 12vh;
+        font-size: 20px;
+    }
+
+    .carousel
+    {
+        display: none;
+    }
+
+    .login-btn
+    {
+        width: 30vw;
+    }
+
+    .iDev-Logo
+    {
+        margin: 0;
+        width: 50vw;
+        height: 4vh;
+    }
+
+    .insta-face-whats
+    {
+        margin-right: 2rem;
+        margin-left: -2rem;
+    }
+
+    .gmail-maps
+    {
+        margin-left: 8rem;
+    }
+}
